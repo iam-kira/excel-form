@@ -77,9 +77,9 @@ function App() {
           value={salary}
         /> */}
         <br></br>
-        <div style={{display:"flex",justifyContent:'flex-end'}}>
+        {/* <div style={{display:"flex",justifyContent:'flex-end'}}>
           <button type='submit' className='btn btn-primary'>Submit</button>
-        </div>
+        </div> */}
       </form>
       <div className='view-data'>
         {data.length<1&&<>No data to show</>}
